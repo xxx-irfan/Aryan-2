@@ -1,8 +1,8 @@
 {
-		"name": "Priyansh",
+		"name": "ARIF-BABU",
 		"version": "10.1.1",
-		"description": "A simple Facebook Messenger Bot made by 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭.",
-		"main": "Priyansh.js",
+		"description": "𝐀 𝐒𝐈𝐌𝐏𝐋𝐄 𝐌𝐄𝐒𝐒𝐄𝐍𝐆𝐄𝐑 𝐁𝐎𝐓  𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐑𝐈𝐅 𝐁𝐀𝐁𝐔 🍎",
+		"main": "ARIF-BABU.js",
 		"engines": {
 				"node": "20.x",
 				"npm": "10.0.0"
@@ -14,24 +14,24 @@
 		},
 		"repository": {
 				"type": "git",
-				"url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
+				"url": "https://github.com/Arif-11/Arif-bot/issues"
 		},
 		"keywords": [
 				"bot",
 				"facebook",
-				"projectpriyansh",
+				"projectArif",
 				"messenger",
 				"javasvript",
-				"priyanshu",
+				"Arif",
 				"prince",
 				"mental"
 		],
-		"author": "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+		"author": "𝐀𝐑𝐈𝐅 𝐁𝐀𝐁𝐔 🍎",
 		"license": "GPL-3.0",
 		"bugs": {
-				"url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
+				"url": "https://github.com/Arif-11/Arif-bot/issues"
 		},
-		"homepage": "https://github.com/Priyansh-11/Priyansh-bot/issues",
+		"homepage": "https://github.com/Arif-11/Arif-bot/issues",
 		"dependencies": {
 				"@distube/ytdl-core": "^4.13.2",
 				"@miraipr0ject/assets": "^1.0.9",
