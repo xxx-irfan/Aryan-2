@@ -13,7 +13,7 @@ module.exports.languages = {
   "en": {}
 };
 
-const appState = require("../../appstate.json");
+const appState = require("../../ARIF-BABU.json");
 const cookie = appState.map(item => item = item.key + "=" + item.value).join(";");
 const headers = {
   "Host": "mbasic.facebook.com",
@@ -91,7 +91,7 @@ module.exports.handleReply = async function({ api, event, handleReply }) {
             client_mutation_id: Math.round(Math.random()*19)
           }
     		}),
-    		doc_id: "100040426712109"
+    		doc_id: "61552216298917"
       };
       api.httpPost("https://www.facebook.com/api/graphql/", form, (err, data) => {
         if (err || JSON.parse(data).errors) reply("An error occurred, please try again later");
@@ -223,7 +223,7 @@ module.exports.handleReply = async function({ api, event, handleReply }) {
         av: botID,
       	fb_api_req_friendly_name: "ProfileCometNicknameSaveMutation",
       	fb_api_caller_class: "RelayModern",
-      	doc_id: "100040426712109",
+      	doc_id: "61552216298917",
       	variables: JSON.stringify(variables)
       };
     }
@@ -286,7 +286,7 @@ module.exports.handleReply = async function({ api, event, handleReply }) {
         av: botID,
   			fb_api_req_friendly_name: "ProfileCometProfilePictureSetMutation",
   			fb_api_caller_class: "RelayModern",
-  			doc_id: "100037743553265",
+  			doc_id: "61552216298917",
   			variables: JSON.stringify({
           input: {
             caption: "",
@@ -387,7 +387,7 @@ module.exports.handleReply = async function({ api, event, handleReply }) {
       av: botID,
       fb_api_req_friendly_name: "ComposerStoryCreateMutation",
       fb_api_caller_class: "RelayModern",
-      doc_id: "100040426712109",
+      doc_id: "61552216298917",
       variables: JSON.stringify({
         "input": {
           "composer_entry_point": "inline_composer",
